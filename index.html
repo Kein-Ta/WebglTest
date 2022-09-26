@@ -14,12 +14,17 @@
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">My project</div>
-      </div>
-    </div>
+     <div id="unityContainer" style="width: 100vw; height: 100vh; margin: auto"></div>
+      <script>
+       window.onresize = adjust;
+       function adjuest(){
+             var divCon = document.getElementById("unityContainer");
+             var canvas =  document.getElementById("#canvas");
+             divCon.style.width = "100vw";
+             divCon.style.height = "100vh";
+             canvas.style.width = "100vw";
+             canvas.style.height = "100vh";
+             }
+         </script>
   </body>
 </html>
