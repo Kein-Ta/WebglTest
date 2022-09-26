@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "webTest",
+"productVersion": "0.2",
+"dataUrl": "webTest.data.unityweb",
+"wasmCodeUrl": "webTest.wasm.code.unityweb",
+"wasmFrameworkUrl": "webTest.wasm.framework.unityweb",
+"wasmSymbolsUrl": "webTest.wasm.symbols.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.36f1c1"
+}
